@@ -45,13 +45,15 @@
 </div>
 </li>
 
+<!--
 <div id="sidebar-roll-2">
 <li class="widget tab_box">
 <div class="widget-ad">
-<script type="text/javascript">/*新主题250*250，创建于2012-8-3*/ var cpro_id = 'u1009251';</script><script src="http://cpro.baidu.com/cpro/ui/c.js" type="text/javascript"></script>
+<script type="text/javascript">var cpro_id = 'u1009251';</script><script src="http://cpro.baidu.com/cpro/ui/c.js" type="text/javascript"></script>
 <span></span>
 </div>
 </li></div>
+-->
 
 <!--读者和留言-->
 

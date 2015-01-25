@@ -2,11 +2,12 @@
 <div id="content">
 <div class="main">
 
+<!--
 <div class="post-top-ad">
 <script type="text/javascript">/*336*280，创建于2012-8-3*/ var cpro_id = 'u1009503';</script><script src="http://cpro.baidu.com/cpro/ui/c.js" type="text/javascript"></script>
 <span></span>
 </div>
-
+-->
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <div class="left">
 <div class="post_date">
@@ -23,6 +24,7 @@
 <span class="info-view-icon">超过<?php if(function_exists(the_views)) { the_views(' 次', true);}?>围观</span>
 <span class="info-comment-icon"><?php comments_popup_link ('0条评论','1条评论','%条评论'); ?></span></div>
 <!-- Baidu Button BEGIN -->
+<!--
     <div id="baidushare"><div id="bdshare" class="bdshare_b" style="line-height: 12px;"><img src="http://www.8090st.com/2/wp-content/themes/weisaysimple/images/sharebutton.jpg" />
 		<a class="shareCount"></a>
 	</div>
@@ -31,6 +33,7 @@
 <script type="text/javascript">
 	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
 </script></div>
+-->
 <!-- Baidu Button END -->
 </div>
 
@@ -60,6 +63,7 @@
 </div>
 </div>
 
+<!--
 <div class="articles">
 <div id="singlead">
 <div class="adleft">
@@ -76,6 +80,7 @@
 </div>
 </div>
 </div>
+-->
 
 
 <div class="articles">
@@ -94,19 +99,22 @@
 </div>
 <div class="articles">
 <?php include('includes/related.php'); ?>
-<div class="nf-ad">
+
 <!-- nuffnang -->
-<script type="text/javascript">
-nuffnang_bid = "84290eb38055ad34637441cd16a840f8";
-document.write( "<div id='nuffnang_ss'></div>" );
-(function() {	
-var nn = document.createElement('script'); nn.type = 'text/javascript';    
-nn.src = 'http://synad2.nuffnang.com.cn/ss2.js';    
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(nn, s.nextSibling);
-})();
-</script>
+<!--
+<div class="nf-ad">
+	<script type="text/javascript">
+	nuffnang_bid = "84290eb38055ad34637441cd16a840f8";
+	document.write( "<div id='nuffnang_ss'></div>" );
+	(function() {	
+	var nn = document.createElement('script'); nn.type = 'text/javascript';    
+	nn.src = 'http://synad2.nuffnang.com.cn/ss2.js';    
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(nn, s.nextSibling);
+	})();
+	</script>
+</div>
+-->
 <!-- nuffnang-->
-	</div>
 <div class="clear"></div>
 </div>
 

@@ -79,7 +79,7 @@ echo $s.' 的搜索结果';
 ?>
 </div>
 <div class="baiduad">
-<script type="text/javascript">/*468*15，创建于2012-8-3*/ var cpro_id = 'u1009348';</script><script src="http://cpro.baidu.com/cpro/ui/c.js" type="text/javascript"></script>
+<!--<script type="text/javascript">/*468*15，创建于2012-8-3*/ var cpro_id = 'u1009348';</script><script src="http://cpro.baidu.com/cpro/ui/c.js" type="text/javascript"></script>-->
 </div>
 </div>
 </div>
