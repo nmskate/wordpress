@@ -667,4 +667,10 @@ function __popular_posts($no_posts=6, $before="<li>", $after="</li>", $show_pass
 	}
 	return  $output;
 }
+function v7v3_get_avatar($avatar) {
+    $avatar = str_replace(array("www.gravatar.com","0.gravatar.com","1.gravatar.com","2.gravatar.com"),
+"cd.v7v3.com",$avatar);
+    return $avatar;
+}
+add_filter( 'get_avatar', 'v7v3_get_avatar', 10, 3 );
 ?>
